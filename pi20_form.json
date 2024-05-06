@@ -1,31 +1,31 @@
 {
   "components": {
-    "557": {
-      "id": "557",
+    "1": {
+      "id": "1",
       "title": "PI20",
       "type": "lab.flow.Sequence",
       "children": [
-        "558",
-        "561",
-        "562",
-        "563",
-        "564",
-        "565",
-        "566",
-        "567",
-        "568",
-        "569",
-        "570",
-        "571",
-        "572",
-        "573",
-        "574",
-        "575",
-        "576",
-        "577",
-        "578",
-        "579",
-        "580"
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22"
       ],
       "parameters": [
         {
@@ -50,8 +50,8 @@
       "skip": false,
       "tardy": false
     },
-    "558": {
-      "id": "558",
+    "2": {
+      "id": "2",
       "type": "lab.html.Page",
       "items": [
         {
@@ -89,8 +89,8 @@
       "title": "PI20 form",
       "_tab": "Content"
     },
-    "561": {
-      "id": "561",
+    "3": {
+      "id": "3",
       "type": "lab.html.Form",
       "content": "<main>\n  <form>\n    <h2>Q1: My face recognition ability is worse than most people.</h2>\n\n    <div style=\"text-align: left; position:relative; left:45%\">\n    <table class=\"table-plain\">\n        <input type=\"radio\" value=\"5\" name=\"q1\" id=\"5agree\" required> 5 -- </input>\n        <label for=\"5agree\"> Strongly agree </label><br>\n\n        <input type=\"radio\" value=\"4\" name=\"q1\" id=\"4agree\"> 4 -- </input>\n        <label for=\"4agree\"> Moderately agree </label><br>\n\n        <input type=\"radio\" value=\"3\" name=\"q1\" id=\"3neutral\"> 3 -- </input>\n        <label for=\"3neutral\"> Neutral  </label><br>\n\n        <input type=\"radio\" value=\"2\" name=\"q1\" id=\"2disagree\" > 2 -- </input>\n        <label for=\"2disagree\"> Moderately disagree  </label><br>\n\n        <input type=\"radio\" value=\"1\" name=\"q1\" id=\"1disagree\" > 1 -- </input>\n        <label for=\"1disagree\"> Strongly disagree </label><br>\n      \n    </table>  \n    </div>\n\n    <p> </p>\n    <button type=\"submit\">\n      Next question\n    </button>\n \n  </form>\n</main>\n\n",
       "scrollTop": true,
@@ -120,8 +120,8 @@
       "title": "Q1-label,centered-left",
       "_tab": "Content"
     },
-    "562": {
-      "id": "562",
+    "4": {
+      "id": "4",
       "type": "lab.html.Form",
       "content": "<main>\n  <form>\n    <h2>Q2: I have always had bad memory for faces.</h2>\n\n   <div style=\"text-align: left; position:relative; left:45%\">\n    <table class=\"table-plain\">\n        <input type=\"radio\" value=\"5\" name=\"q2\" id=\"5agree\" required> 5 -- </input>\n        <label for=\"5agree\"> Strongly agree </label><br>\n\n        <input type=\"radio\" value=\"4\" name=\"q2\" id=\"4agree\"> 4 -- </input>\n        <label for=\"4agree\"> Moderately agree </label><br>\n\n        <input type=\"radio\" value=\"3\" name=\"q2\" id=\"3neutral\"> 3 -- </input>\n        <label for=\"3neutral\"> Neutral  </label><br>\n\n        <input type=\"radio\" value=\"2\" name=\"q2\" id=\"2disagree\" > 2 -- </input>\n        <label for=\"2disagree\"> Moderately disagree  </label><br>\n\n        <input type=\"radio\" value=\"1\" name=\"q2\" id=\"1disagree\" > 1 -- </input>\n        <label for=\"1disagree\"> Strongly disagree </label><br>\n      \n    </table> \n   </div> \n\n    <p> </p>\n    <button type=\"submit\">\n      Next question\n    </button>\n \n  </form>\n</main>\n\n",
       "scrollTop": true,
@@ -151,8 +151,8 @@
       "title": "Q2-label,centered-left",
       "_tab": "Content"
     },
-    "563": {
-      "id": "563",
+    "5": {
+      "id": "5",
       "type": "lab.html.Form",
       "content": "<main>\n  <form>\n    <h2>Q3: I find it notably easier to recognize people who have distinctive facial features.</h2>\n\n   <div style=\"text-align: left; position:relative; left:45%\">\n    <table class=\"table-plain\">\n        <input type=\"radio\" value=\"5\" name=\"q3\" id=\"5agree\" required> 5 -- </input>\n        <label for=\"5agree\"> Strongly agree </label><br>\n\n        <input type=\"radio\" value=\"4\" name=\"q3\" id=\"4agree\"> 4 -- </input>\n        <label for=\"4agree\"> Moderately agree </label><br>\n\n        <input type=\"radio\" value=\"3\" name=\"q3\" id=\"3neutral\"> 3 -- </input>\n        <label for=\"3neutral\"> Neutral  </label><br>\n\n        <input type=\"radio\" value=\"2\" name=\"q3\" id=\"2disagree\" > 2 -- </input>\n        <label for=\"2disagree\"> Moderately disagree  </label><br>\n\n        <input type=\"radio\" value=\"1\" name=\"q3\" id=\"1disagree\" > 1 -- </input>\n        <label for=\"1disagree\"> Strongly disagree </label><br>\n      \n    </table>  \n   </div>\n\n    <p> </p>\n    <button type=\"submit\">\n      Next question\n    </button>\n \n  </form>\n</main>\n\n",
       "scrollTop": true,
@@ -182,8 +182,8 @@
       "title": "Q3-label,centered-left",
       "_tab": "Content"
     },
-    "564": {
-      "id": "564",
+    "6": {
+      "id": "6",
       "type": "lab.html.Form",
       "content": "<main>\n  <form>\n    <h2>Q4: I often mistake people I have met before for strangers.</h2>\n\n   <div style=\"text-align: left; position:relative; left:45%\">\n    <table class=\"table-plain\">\n        <input type=\"radio\" value=\"5\" name=\"q4\" id=\"5agree\" required> 5 -- </input>\n        <label for=\"5agree\"> Strongly agree </label><br>\n\n        <input type=\"radio\" value=\"4\" name=\"q4\" id=\"4agree\"> 4 -- </input>\n        <label for=\"4agree\"> Moderately agree </label><br>\n\n        <input type=\"radio\" value=\"3\" name=\"q4\" id=\"3neutral\"> 3 -- </input>\n        <label for=\"3neutral\"> Neutral  </label><br>\n\n        <input type=\"radio\" value=\"2\" name=\"q4\" id=\"2disagree\" > 2 -- </input>\n        <label for=\"2disagree\"> Moderately disagree  </label><br>\n\n        <input type=\"radio\" value=\"1\" name=\"q4\" id=\"1disagree\" > 1 -- </input>\n        <label for=\"1disagree\"> Strongly disagree </label><br>\n      \n    </table>  \n   </div>\n\n    <p> </p>\n    <button type=\"submit\">\n      Next question\n    </button>\n \n  </form>\n</main>\n\n",
       "scrollTop": true,
@@ -213,8 +213,8 @@
       "title": "Q4-label,centered-left",
       "_tab": "Content"
     },
-    "565": {
-      "id": "565",
+    "7": {
+      "id": "7",
       "type": "lab.html.Form",
       "content": "<main>\n  <form>\n    <h2>Q5: When I was at school I struggled to recognize my classmates.</h2>\n\n   <div style=\"text-align: left; position:relative; left:45%\">\n    <table class=\"table-plain\">\n        <input type=\"radio\" value=\"5\" name=\"q5\" id=\"5agree\" required> 5 -- </input>\n        <label for=\"5agree\"> Strongly agree </label><br>\n\n        <input type=\"radio\" value=\"4\" name=\"q5\" id=\"4agree\"> 4 -- </input>\n        <label for=\"4agree\"> Moderately agree </label><br>\n\n        <input type=\"radio\" value=\"3\" name=\"q5\" id=\"3neutral\"> 3 -- </input>\n        <label for=\"3neutral\"> Neutral  </label><br>\n\n        <input type=\"radio\" value=\"2\" name=\"q5\" id=\"2disagree\" > 2 -- </input>\n        <label for=\"2disagree\"> Moderately disagree  </label><br>\n\n        <input type=\"radio\" value=\"1\" name=\"q5\" id=\"1disagree\" > 1 -- </input>\n        <label for=\"1disagree\"> Strongly disagree </label><br>\n      \n    </table>  \n   </div>\n\n    <p> </p>\n    <button type=\"submit\">\n      Next question\n    </button>\n \n  </form>\n</main>\n\n",
       "scrollTop": true,
@@ -244,8 +244,8 @@
       "title": "Q5-label,centered-left",
       "_tab": "Content"
     },
-    "566": {
-      "id": "566",
+    "8": {
+      "id": "8",
       "type": "lab.html.Form",
       "content": "<main>\n  <form>\n    <h2>Q6: When people change their hairstyle, or wear hats, I have problems recognizing them.</h2>\n\n   <div style=\"text-align: left; position:relative; left:45%\">\n    <table class=\"table-plain\">\n        <input type=\"radio\" value=\"5\" name=\"q6\" id=\"5agree\" required> 5 -- </input>\n        <label for=\"5agree\"> Strongly agree </label><br>\n\n        <input type=\"radio\" value=\"4\" name=\"q6\" id=\"4agree\"> 4 -- </input>\n        <label for=\"4agree\"> Moderately agree </label><br>\n\n        <input type=\"radio\" value=\"3\" name=\"q6\" id=\"3neutral\"> 3 -- </input>\n        <label for=\"3neutral\"> Neutral  </label><br>\n\n        <input type=\"radio\" value=\"2\" name=\"q6\" id=\"2disagree\" > 2 -- </input>\n        <label for=\"2disagree\"> Moderately disagree  </label><br>\n\n        <input type=\"radio\" value=\"1\" name=\"q6\" id=\"1disagree\" > 1 -- </input>\n        <label for=\"1disagree\"> Strongly disagree </label><br>\n      \n    </table>  \n   </div>\n\n    <p> </p>\n    <button type=\"submit\">\n      Next question\n    </button>\n \n  </form>\n</main>\n\n",
       "scrollTop": true,
@@ -275,8 +275,8 @@
       "title": "Q6-label,centered-left",
       "_tab": "Content"
     },
-    "567": {
-      "id": "567",
+    "9": {
+      "id": "9",
       "type": "lab.html.Form",
       "content": "<main>\n  <form>\n    <h2>Q7: I sometimes have to warn new people I meet that I am \"bad with faces\".</h2>\n\n   <div style=\"text-align: left; position:relative; left:45%\">\n    <table class=\"table-plain\">\n        <input type=\"radio\" value=\"5\" name=\"q7\" id=\"5agree\" required> 5 -- </input>\n        <label for=\"5agree\"> Strongly agree </label><br>\n\n        <input type=\"radio\" value=\"4\" name=\"q7\" id=\"4agree\"> 4 -- </input>\n        <label for=\"4agree\"> Moderately agree </label><br>\n\n        <input type=\"radio\" value=\"3\" name=\"q7\" id=\"3neutral\"> 3 -- </input>\n        <label for=\"3neutral\"> Neutral  </label><br>\n\n        <input type=\"radio\" value=\"2\" name=\"q7\" id=\"2disagree\" > 2 -- </input>\n        <label for=\"2disagree\"> Moderately disagree  </label><br>\n\n        <input type=\"radio\" value=\"1\" name=\"q7\" id=\"1disagree\" > 1 -- </input>\n        <label for=\"1disagree\"> Strongly disagree </label><br>\n      \n    </table>  \n   </div>\n\n    <p> </p>\n    <button type=\"submit\">\n      Next question\n    </button>\n \n  </form>\n</main>\n\n",
       "scrollTop": true,
@@ -306,8 +306,8 @@
       "title": "Q7-label,centered-left",
       "_tab": "Content"
     },
-    "568": {
-      "id": "568",
+    "10": {
+      "id": "10",
       "type": "lab.html.Form",
       "content": "<main>\n  <form>\n    <h2>Q8: I find it easy to picture individual faces in my mind.</h2>\n\n<!-- reverse scored (strongly agree is scored ‘1’ and strongly disagree is scored ‘5’) -->\n   <div style=\"text-align: left; position:relative; left:45%\">\n    <table class=\"table-plain\">\n        <input type=\"radio\" value=\"1\" name=\"q8\" id=\"5agree\" required> 5 -- </input>\n        <label for=\"5agree\"> Strongly agree </label><br>\n\n        <input type=\"radio\" value=\"2\" name=\"q8\" id=\"4agree\"> 4 -- </input>\n        <label for=\"4agree\"> Moderately agree </label><br>\n\n        <input type=\"radio\" value=\"3\" name=\"q8\" id=\"3neutral\"> 3 -- </input>\n        <label for=\"3neutral\"> Neutral  </label><br>\n\n        <input type=\"radio\" value=\"4\" name=\"q8\" id=\"2disagree\" > 2 -- </input>\n        <label for=\"2disagree\"> Moderately disagree  </label><br>\n\n        <input type=\"radio\" value=\"5\" name=\"q8\" id=\"1disagree\" > 1 -- </input>\n        <label for=\"1disagree\"> Strongly disagree </label><br>\n      \n    </table>  \n   </div>\n\n    <p> </p>\n    <button type=\"submit\">\n      Next question\n    </button>\n \n  </form>\n</main>\n\n",
       "scrollTop": true,
@@ -337,8 +337,8 @@
       "title": "Q8-label,centered-left",
       "_tab": "Content"
     },
-    "569": {
-      "id": "569",
+    "11": {
+      "id": "11",
       "type": "lab.html.Form",
       "content": "<main>\n  <form>\n    <h2>Q9: I am better than most people at putting a \"name to a face\".</h2>\n<!-- reverse scored (strongly agree is scored ‘1’ and strongly disagree is scored ‘5’) -->\n   <div style=\"text-align: left; position:relative; left:45%\">\n    <table class=\"table-plain\">\n        <input type=\"radio\" value=\"1\" name=\"q9\" id=\"5agree\" required> 5 -- </input>\n        <label for=\"5agree\"> Strongly agree </label><br>\n\n        <input type=\"radio\" value=\"2\" name=\"q9\" id=\"4agree\"> 4 -- </input>\n        <label for=\"4agree\"> Moderately agree </label><br>\n\n        <input type=\"radio\" value=\"3\" name=\"q9\" id=\"3neutral\"> 3 -- </input>\n        <label for=\"3neutral\"> Neutral  </label><br>\n\n        <input type=\"radio\" value=\"4\" name=\"q9\" id=\"2disagree\" > 2 -- </input>\n        <label for=\"2disagree\"> Moderately disagree  </label><br>\n\n        <input type=\"radio\" value=\"5\" name=\"q9\" id=\"1disagree\" > 1 -- </input>\n        <label for=\"1disagree\"> Strongly disagree </label><br>\n      \n    </table>  \n   </div>\n\n    <p> </p>\n    <button type=\"submit\">\n      Next question\n    </button>\n \n  </form>\n</main>\n\n",
       "scrollTop": true,
@@ -368,8 +368,8 @@
       "title": "Q9-label,centered-left",
       "_tab": "Content"
     },
-    "570": {
-      "id": "570",
+    "12": {
+      "id": "12",
       "type": "lab.html.Form",
       "content": "<main>\n  <form>\n    <h2>Q10: Without hearing people’s voices, I struggle to recognize them.</h2>\n\n   <div style=\"text-align: left; position:relative; left:45%\">\n    <table class=\"table-plain\">\n        <input type=\"radio\" value=\"5\" name=\"q10\" id=\"5agree\" required> 5 -- </input>\n        <label for=\"5agree\"> Strongly agree </label><br>\n\n        <input type=\"radio\" value=\"4\" name=\"q10\" id=\"4agree\"> 4 -- </input>\n        <label for=\"4agree\"> Moderately agree </label><br>\n\n        <input type=\"radio\" value=\"3\" name=\"q10\" id=\"3neutral\"> 3 -- </input>\n        <label for=\"3neutral\"> Neutral  </label><br>\n\n        <input type=\"radio\" value=\"2\" name=\"q10\" id=\"2disagree\" > 2 -- </input>\n        <label for=\"2disagree\"> Moderately disagree  </label><br>\n\n        <input type=\"radio\" value=\"1\" name=\"q10\" id=\"1disagree\" > 1 -- </input>\n        <label for=\"1disagree\"> Strongly disagree </label><br>\n      \n    </table> \n   </div> \n\n    <p> </p>\n    <button type=\"submit\">\n      Next question\n    </button>\n \n  </form>\n</main>\n\n",
       "scrollTop": true,
@@ -399,8 +399,8 @@
       "title": "Q10-label,centered-left",
       "_tab": "Content"
     },
-    "571": {
-      "id": "571",
+    "13": {
+      "id": "13",
       "type": "lab.html.Form",
       "content": "<main>\n  <form>\n    <h2>Q11: Anxiety about face recognition has led me to avoid certain social or professional situations.</h2>\n\n   <div style=\"text-align: left; position:relative; left:45%\">\n    <table class=\"table-plain\">\n        <input type=\"radio\" value=\"5\" name=\"q11\" id=\"5agree\" required> 5 -- </input>\n        <label for=\"5agree\"> Strongly agree </label><br>\n\n        <input type=\"radio\" value=\"4\" name=\"q11\" id=\"4agree\"> 4 -- </input>\n        <label for=\"4agree\"> Moderately agree </label><br>\n\n        <input type=\"radio\" value=\"3\" name=\"q11\" id=\"3neutral\"> 3 -- </input>\n        <label for=\"3neutral\"> Neutral  </label><br>\n\n        <input type=\"radio\" value=\"2\" name=\"q11\" id=\"2disagree\" > 2 -- </input>\n        <label for=\"2disagree\"> Moderately disagree  </label><br>\n\n        <input type=\"radio\" value=\"1\" name=\"q11\" id=\"1disagree\" > 1 -- </input>\n        <label for=\"1disagree\"> Strongly disagree </label><br>\n      \n    </table>  \n   </div>\n\n    <p> </p>\n    <button type=\"submit\">\n      Next question\n    </button>\n \n  </form>\n</main>\n\n",
       "scrollTop": true,
@@ -430,8 +430,8 @@
       "title": "Q11-label,centered-left",
       "_tab": "Content"
     },
-    "572": {
-      "id": "572",
+    "14": {
+      "id": "14",
       "type": "lab.html.Form",
       "content": "<main>\n  <form>\n    <h2>Q12: I have to try harder than other people to memorize faces.</h2>\n\n   <div style=\"text-align: left; position:relative; left:45%\">\n    <table class=\"table-plain\">\n        <input type=\"radio\" value=\"5\" name=\"q12\" id=\"5agree\" required> 5 -- </input>\n        <label for=\"5agree\"> Strongly agree </label><br>\n\n        <input type=\"radio\" value=\"4\" name=\"q12\" id=\"4agree\"> 4 -- </input>\n        <label for=\"4agree\"> Moderately agree </label><br>\n\n        <input type=\"radio\" value=\"3\" name=\"q12\" id=\"3neutral\"> 3 -- </input>\n        <label for=\"3neutral\"> Neutral  </label><br>\n\n        <input type=\"radio\" value=\"2\" name=\"q12\" id=\"2disagree\" > 2 -- </input>\n        <label for=\"2disagree\"> Moderately disagree  </label><br>\n\n        <input type=\"radio\" value=\"1\" name=\"q12\" id=\"1disagree\" > 1 -- </input>\n        <label for=\"1disagree\"> Strongly disagree </label><br>\n      \n    </table>  \n   </div>\n\n    <p> </p>\n    <button type=\"submit\">\n      Next question\n    </button>\n \n  </form>\n</main>\n\n",
       "scrollTop": true,
@@ -461,8 +461,8 @@
       "title": "Q12-label,centered-left",
       "_tab": "Content"
     },
-    "573": {
-      "id": "573",
+    "15": {
+      "id": "15",
       "type": "lab.html.Form",
       "content": "<main>\n  <form>\n    <h2>Q13: I am very confident in my ability to recognize myself in photographs.</h2>\n<!-- reverse scored (strongly agree is scored ‘1’ and strongly disagree is scored ‘5’) -->\n   <div style=\"text-align: left; position:relative; left:45%\">\n    <table class=\"table-plain\">\n        <input type=\"radio\" value=\"1\" name=\"q13\" id=\"5agree\" required> 5 -- </input>\n        <label for=\"5agree\"> Strongly agree </label><br>\n\n        <input type=\"radio\" value=\"2\" name=\"q13\" id=\"4agree\"> 4 -- </input>\n        <label for=\"4agree\"> Moderately agree </label><br>\n\n        <input type=\"radio\" value=\"3\" name=\"q13\" id=\"3neutral\"> 3 -- </input>\n        <label for=\"3neutral\"> Neutral  </label><br>\n\n        <input type=\"radio\" value=\"4\" name=\"q13\" id=\"2disagree\" > 2 -- </input>\n        <label for=\"2disagree\"> Moderately disagree  </label><br>\n\n        <input type=\"radio\" value=\"5\" name=\"q13\" id=\"1disagree\" > 1 -- </input>\n        <label for=\"1disagree\"> Strongly disagree </label><br>\n      \n    </table>  \n   </div>\n\n    <p> </p>\n    <button type=\"submit\">\n      Next question\n    </button>\n \n  </form>\n</main>\n\n",
       "scrollTop": true,
@@ -492,8 +492,8 @@
       "title": "Q13-label,centered-left",
       "_tab": "Content"
     },
-    "574": {
-      "id": "574",
+    "16": {
+      "id": "16",
       "type": "lab.html.Form",
       "content": "<main>\n  <form>\n    <h2>Q14: I sometimes find movies hard to follow because of difficulties recognizing characters.</h2>\n\n   <div style=\"text-align: left; position:relative; left:45%\">\n    <table class=\"table-plain\">\n        <input type=\"radio\" value=\"5\" name=\"q14\" id=\"5agree\" required> 5 -- </input>\n        <label for=\"5agree\"> Strongly agree </label><br>\n\n        <input type=\"radio\" value=\"4\" name=\"q14\" id=\"4agree\"> 4 -- </input>\n        <label for=\"4agree\"> Moderately agree </label><br>\n\n        <input type=\"radio\" value=\"3\" name=\"q14\" id=\"3neutral\"> 3 -- </input>\n        <label for=\"3neutral\"> Neutral  </label><br>\n\n        <input type=\"radio\" value=\"2\" name=\"q14\" id=\"2disagree\" > 2 -- </input>\n        <label for=\"2disagree\"> Moderately disagree  </label><br>\n\n        <input type=\"radio\" value=\"1\" name=\"q14\" id=\"1disagree\" > 1 -- </input>\n        <label for=\"1disagree\"> Strongly disagree </label><br>\n      \n    </table>  \n   </div>\n   \n    <p> </p>\n    <button type=\"submit\">\n      Next question\n    </button>\n \n  </form>\n</main>\n\n",
       "scrollTop": true,
@@ -523,8 +523,8 @@
       "title": "Q14-label,centered-left",
       "_tab": "Content"
     },
-    "575": {
-      "id": "575",
+    "17": {
+      "id": "17",
       "type": "lab.html.Form",
       "content": "<main>\n  <form>\n    <h2>Q15: My friends and family think I have bad face recognition or bad face memory.</h2>\n\n   <div style=\"text-align: left; position:relative; left:45%\">\n    <table class=\"table-plain\">\n        <input type=\"radio\" value=\"5\" name=\"q15\" id=\"5agree\" required> 5 -- </input>\n        <label for=\"5agree\"> Strongly agree </label><br>\n\n        <input type=\"radio\" value=\"4\" name=\"q15\" id=\"4agree\"> 4 -- </input>\n        <label for=\"4agree\"> Moderately agree </label><br>\n\n        <input type=\"radio\" value=\"3\" name=\"q15\" id=\"3neutral\"> 3 -- </input>\n        <label for=\"3neutral\"> Neutral  </label><br>\n\n        <input type=\"radio\" value=\"2\" name=\"q15\" id=\"2disagree\" > 2 -- </input>\n        <label for=\"2disagree\"> Moderately disagree  </label><br>\n\n        <input type=\"radio\" value=\"1\" name=\"q15\" id=\"1disagree\" > 1 -- </input>\n        <label for=\"1disagree\"> Strongly disagree </label><br>\n      \n    </table>  \n   </div>\n\n    <p> </p>\n    <button type=\"submit\">\n      Next question\n    </button>\n \n  </form>\n</main>\n\n",
       "scrollTop": true,
@@ -554,8 +554,8 @@
       "title": "Q15-label,centered-left",
       "_tab": "Content"
     },
-    "576": {
-      "id": "576",
+    "18": {
+      "id": "18",
       "type": "lab.html.Form",
       "content": "<main>\n  <form>\n    <h2>Q16: I feel like I frequently offend people by not recognizing who they are.</h2>\n\n   <div style=\"text-align: left; position:relative; left:45%\">\n    <table class=\"table-plain\">\n        <input type=\"radio\" value=\"5\" name=\"q16\" id=\"5agree\" required> 5 -- </input>\n        <label for=\"5agree\"> Strongly agree </label><br>\n\n        <input type=\"radio\" value=\"4\" name=\"q16\" id=\"4agree\"> 4 -- </input>\n        <label for=\"4agree\"> Moderately agree </label><br>\n\n        <input type=\"radio\" value=\"3\" name=\"q16\" id=\"3neutral\"> 3 -- </input>\n        <label for=\"3neutral\"> Neutral  </label><br>\n\n        <input type=\"radio\" value=\"2\" name=\"q16\" id=\"2disagree\" > 2 -- </input>\n        <label for=\"2disagree\"> Moderately disagree  </label><br>\n\n        <input type=\"radio\" value=\"1\" name=\"q16\" id=\"1disagree\" > 1 -- </input>\n        <label for=\"1disagree\"> Strongly disagree </label><br>\n      \n    </table>  \n   </div>\n\n    <p> </p>\n    <button type=\"submit\">\n      Next question\n    </button>\n \n  </form>\n</main>\n\n",
       "scrollTop": true,
@@ -585,8 +585,8 @@
       "title": "Q16-label,centered-left",
       "_tab": "Content"
     },
-    "577": {
-      "id": "577",
+    "19": {
+      "id": "19",
       "type": "lab.html.Form",
       "content": "<main>\n  <form>\n    <h2>Q17: It is easy for me to recognize individuals in situations that require people to wear similar clothes (e.g. suits, uniforms and swimwear).</h2>\n<!-- reverse scored (strongly agree is scored ‘1’ and strongly disagree is scored ‘5’) -->\n   <div style=\"text-align: left; position:relative; left:45%\">\n    <table class=\"table-plain\">\n        <input type=\"radio\" value=\"1\" name=\"q17\" id=\"5agree\" required> 5 -- </input>\n        <label for=\"5agree\"> Strongly agree </label><br>\n\n        <input type=\"radio\" value=\"2\" name=\"q17\" id=\"4agree\"> 4 -- </input>\n        <label for=\"4agree\"> Moderately agree </label><br>\n\n        <input type=\"radio\" value=\"3\" name=\"q17\" id=\"3neutral\"> 3 -- </input>\n        <label for=\"3neutral\"> Neutral  </label><br>\n\n        <input type=\"radio\" value=\"4\" name=\"q17\" id=\"2disagree\" > 2 -- </input>\n        <label for=\"2disagree\"> Moderately disagree  </label><br>\n\n        <input type=\"radio\" value=\"5\" name=\"q17\" id=\"1disagree\" > 1 -- </input>\n        <label for=\"1disagree\"> Strongly disagree </label><br>\n      \n    </table>  \n   </div>\n   \n    <p> </p>\n    <button type=\"submit\">\n      Next question\n    </button>\n \n  </form>\n</main>\n\n",
       "scrollTop": true,
@@ -616,8 +616,8 @@
       "title": "Q17-label,centered-left",
       "_tab": "Content"
     },
-    "578": {
-      "id": "578",
+    "20": {
+      "id": "20",
       "type": "lab.html.Form",
       "content": "<main>\n  <form>\n    <h2>Q18: At family gatherings, I sometimes confuse individual family members.</h2>\n\n   <div style=\"text-align: left; position:relative; left:45%\">\n    <table class=\"table-plain\">\n        <input type=\"radio\" value=\"5\" name=\"q18\" id=\"5agree\" required> 5 -- </input>\n        <label for=\"5agree\"> Strongly agree </label><br>\n\n        <input type=\"radio\" value=\"4\" name=\"q18\" id=\"4agree\"> 4 -- </input>\n        <label for=\"4agree\"> Moderately agree </label><br>\n\n        <input type=\"radio\" value=\"3\" name=\"q18\" id=\"3neutral\"> 3 -- </input>\n        <label for=\"3neutral\"> Neutral  </label><br>\n\n        <input type=\"radio\" value=\"2\" name=\"q18\" id=\"2disagree\" > 2 -- </input>\n        <label for=\"2disagree\"> Moderately disagree  </label><br>\n\n        <input type=\"radio\" value=\"1\" name=\"q18\" id=\"1disagree\" > 1 -- </input>\n        <label for=\"1disagree\"> Strongly disagree </label><br>\n      \n    </table>  \n   </div>\n\n    <p> </p>\n    <button type=\"submit\">\n      Next question\n    </button>\n \n  </form>\n</main>\n\n",
       "scrollTop": true,
@@ -647,8 +647,8 @@
       "title": "Q18-label,centered-left",
       "_tab": "Content"
     },
-    "579": {
-      "id": "579",
+    "21": {
+      "id": "21",
       "type": "lab.html.Form",
       "content": "<main>\n  <form>\n    <h2>Q19: I find it easy to recognize celebrities in \"before-they-were-famous\" photos, even if they have changed considerably.</h2>\n<!-- reverse scored (strongly agree is scored ‘1’ and strongly disagree is scored ‘5’) -->\n   <div style=\"text-align: left; position:relative; left:45%\">\n    <table class=\"table-plain\">\n        <input type=\"radio\" value=\"1\" name=\"q19\" id=\"5agree\" required> 5 -- </input>\n        <label for=\"5agree\"> Strongly agree </label><br>\n\n        <input type=\"radio\" value=\"2\" name=\"q19\" id=\"4agree\"> 4 -- </input>\n        <label for=\"4agree\"> Moderately agree </label><br>\n\n        <input type=\"radio\" value=\"3\" name=\"q19\" id=\"3neutral\"> 3 -- </input>\n        <label for=\"3neutral\"> Neutral  </label><br>\n\n        <input type=\"radio\" value=\"4\" name=\"q19\" id=\"2disagree\" > 2 -- </input>\n        <label for=\"2disagree\"> Moderately disagree  </label><br>\n\n        <input type=\"radio\" value=\"5\" name=\"q19\" id=\"1disagree\" > 1 -- </input>\n        <label for=\"1disagree\"> Strongly disagree </label><br>\n      \n    </table>  \n   </div>\n\n    <p> </p>\n    <button type=\"submit\">\n      Next question\n    </button>\n \n  </form>\n</main>\n\n",
       "scrollTop": true,
@@ -678,8 +678,8 @@
       "title": "Q19-label,centered-left",
       "_tab": "Content"
     },
-    "580": {
-      "id": "580",
+    "22": {
+      "id": "22",
       "type": "lab.html.Form",
       "content": "<main>\n  <form>\n    <h2>Q20: It is hard to recognize familiar people when I meet them out of context (e.g. meeting a work colleague unexpectedly while shopping).</h2>\n\n   <div style=\"text-align: left; position:relative; left:45%\">\n    <table class=\"table-plain\">\n        <input type=\"radio\" value=\"5\" name=\"q20\" id=\"5agree\" required> 5 -- </input>\n        <label for=\"5agree\"> Strongly agree </label><br>\n\n        <input type=\"radio\" value=\"4\" name=\"q20\" id=\"4agree\"> 4 -- </input>\n        <label for=\"4agree\"> Moderately agree </label><br>\n\n        <input type=\"radio\" value=\"3\" name=\"q20\" id=\"3neutral\"> 3 -- </input>\n        <label for=\"3neutral\"> Neutral  </label><br>\n\n        <input type=\"radio\" value=\"2\" name=\"q20\" id=\"2disagree\" > 2 -- </input>\n        <label for=\"2disagree\"> Moderately disagree  </label><br>\n\n        <input type=\"radio\" value=\"1\" name=\"q20\" id=\"1disagree\" > 1 -- </input>\n        <label for=\"1disagree\"> Strongly disagree </label><br>\n      \n    </table>  \n   </div>\n\n    <p> </p>\n    <button type=\"submit\">\n      Next question\n    </button>\n \n  </form>\n</main>\n\n",
       "scrollTop": true,
@@ -714,28 +714,20 @@
       "title": "root",
       "type": "lab.flow.Sequence",
       "children": [
-        "557"
+        "1"
       ],
-      "parameters": [
-        {
-          "name": "",
-          "value": "",
-          "type": "string"
-        }
-      ],
+      "parameters": [],
       "plugins": [
         {
           "type": "lab.plugins.Metadata"
         }
       ],
       "metadata": {
-        "title": "",
-        "description": "",
-        "repository": "",
-        "contributors": ""
-      },
-      "messageHandlers": [],
-      "files": []
+        "title": "PI20",
+        "description": "The 20-item prosopagnosia index (PI20): a self-report instrument for identifying developmental prosopagnosia\nhttps://royalsocietypublishing.org/doi/10.1098/rsos.140343",
+        "repository": "https://github.com/jankaWIS/PI20_form",
+        "contributors": "JK"
+      }
     }
   },
   "version": [
